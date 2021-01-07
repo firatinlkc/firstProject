@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    box-sizing: border-box !important;
+}
+.green{
+    background: #04CE47;
+}
+.h1{
+    margin-left: 50px;
+    color: white !important;
+    font-weight: 900;
+    font-size: 45px;
+    position: fixed;
+}
+.btn{
+    background: #04CE47;
+    border-color: #04CE47;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.2s all;
+}
+.btn:hover{
+    background: #000;
+    border-color: #000;
+}
+.text > h5{
+    color: #04CE47 !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+.text > h2{
+    color: black !important;
+}
+.text{
+    color: gray;
+}
+.bg-footer{
+    background-color: #04CE47 !important;
+}
+.text-muted{
+    color: white !important;
+}

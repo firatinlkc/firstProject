@@ -1,0 +1,449 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif !important;
+
+}
+
+ul {
+	list-style: none;
+}
+
+
+/*Navbar*/
+.yukari {
+	position: absolute;
+	position: fixed;
+	display: block;
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	background-color: #04CE47;
+	text-align: center;
+	color: white;
+	bottom: 15px;
+	right: 15px;
+	z-index: 9999;
+	display: none;
+	transition: 1.5s all ease;
+}
+
+.yukari:hover {
+	color: white;
+	transform: translateY(-20px);
+}
+
+.yukariCik {
+	display: block;
+}
+
+.navbar-brand {
+	font-size: 35px;
+	font-weight: 600;
+	color: #FEFEFE !important;
+}
+
+.nav-body {
+	margin-left: 360px;
+	margin-top: 5px;
+}
+
+.nav-link {
+	color: #FEFEFE !important;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.px-5 {
+	padding-right: 100px !important;
+	padding-left: 100px !important;
+}
+
+.bgScrol {
+	background: #04CE47;
+	height: 80px;
+	transition: 1s all ease;
+}
+
+.navbar-toggler {
+	color: #F2F2F2 !important;
+	border-color: #F2F2F2 !important;
+}
+
+/*Header*/
+.btn-p {
+	position: absolute;
+	top: 350px;
+	left: 550px;
+}
+
+.position-absolute {
+	width: 50%;
+}
+
+.position-absolute > h1 {
+	font-weight: 900;
+}
+
+.position-absolute > p {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.green {
+	color: #04CE47;
+}
+
+.btn {
+	color: #FEFEFE !important;
+	border-color: #04CE47;
+	border-radius: 200px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 2px solid #04CE47;
+	font-size: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	transition: 900ms background-color;
+}
+
+.btn-2 {
+	margin-left: 200px;
+}
+
+.btn-outline-primary:hover {
+	background-color: #04CE47 !important;
+	border-color: #04CE47;
+}
+
+
+/*Features*/
+.feature-content-area {
+	position: relative;
+	z-index: 101;
+	bottom: 65px;
+	background-color: white;
+	width: 80%;
+	height: 100%;
+}
+
+.transfrom > i {
+	transform: rotate(-45deg);
+}
+
+.feature-icon > i {
+	color: #04CE47;
+	font-size: 30px;
+	height: 70px;
+	width: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50% !important;
+}
+
+.title {
+	position: relative;
+	bottom: 30px;
+	font-size: 23px;
+}
+
+.link {
+	position: relative;
+	bottom: 10px;
+}
+
+.more-btn {
+	color: #04CE47;
+	text-decoration: none;
+}
+
+.more-btn:hover {
+	color: #04CE47;
+}
+
+.transfrom-2 {
+	transform: rotate(-90deg);
+}
+
+.carousel {
+	background: black;
+}
+
+.img-dark {
+	opacity: 0.5;
+}
+
+.description {
+	color: gray !important;
+	margin-bottom: 50px;
+	font-size: 16px;
+}
+
+/*Our-Services*/
+.our-services {
+	background-color: #F2F2F2;
+	width: 100%;
+	height: 100%;
+}
+
+.movment {
+	transition: 1s all ease;
+}
+
+.movment:hover {
+	transform: translateY(-15px);
+}
+
+.text-2 {
+	text-align: center;
+}
+
+.text-2 > h1 {
+	font-weight: 900;
+	font-size: 45px;
+}
+
+.text-2 > p {
+	color: rgb(128, 128, 128);
+}
+
+.service-icon > i {
+	margin-bottom: 20px;
+	font-size: 40px;
+	color: #13c74f;
+}
+
+.white {
+	color: gray !important;
+	opacity: 0.8 !important;
+	margin-top: 18px !important;
+	font-size: 15px;
+}
+
+.single-service {
+	transition: all 1s ease;
+}
+
+.single-service :hover {
+	color: #04CE47;
+}
+
+/*Portfolio*/
+.btn-portfolio {
+	border: 1px solid rgb(141, 137, 137) !important;
+	background-color: transparent !important;
+	color: black;
+	font-weight: 600;
+	transition: 0.5s all ease;
+}
+
+.btn-portfolio:hover {
+	background: #04CE47 !important;
+	color: white !important;
+	border-color: #04CE47 !important;
+}
+
+.box {
+	transition: 0.5s all ease;
+}
+
+.box:hover {
+	background-color: #04CE47;
+	opacity: 0.7;
+}
+
+/*Counterup*/
+.counterup {
+	background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("image/img/counter-bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.counterup-icon {
+	font-size: 50px;
+	color: #04CE47;
+}
+
+.col-md-3 > h2 {
+	color: white;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.col-md-3 > p {
+	color: white;
+}
+
+/*Our Team*/
+.card {
+	transition: 0.8s all ease;
+
+}
+
+.card-title {
+	color: #04CE47;
+	font-weight: 600;
+}
+
+.card-text {
+	color: black !important;
+	font-size: 15px;
+}
+
+.card:hover {
+	background-color: #04CE47;
+	border: none;
+}
+
+.card:hover .card-title {
+	color: white;
+}
+
+.card:hover .card-text {
+	color: white !important;
+}
+
+/*Our Pricing*/
+.our-pricing {
+	background-color: #F2F2F2;
+}
+
+.header-body > h2,
+p {
+	color: white;
+}
+
+.header-body {
+	background-color: #04CE47;
+}
+
+.prince-table {
+	transition: 1s all ease;
+}
+
+.prince-table:hover .prince-value {
+	color: white;
+	background-color: #04CE47;
+	border: none !important;
+}
+
+.prince-table:hover {
+	transform: translateY(-10px);
+}
+
+.list {
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.651);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.body-icon {
+	color: #04CE47;
+}
+
+.button-singup {
+	background: #04CE47;
+	border: #04CE47;
+	color: white;
+	font-size: 15px;
+}
+
+.button-singup:hover {
+	background: #000;
+	border-color: #000;
+}
+
+/*Card Testimonial*/
+.card-testimonial > h5 {
+	color: #04CE47 !important;
+}
+
+.card-text {
+	color: white !important;
+}
+
+.my-3 {
+	color: white !important;
+}
+
+.mt-5 {
+	margin-top: 70px !important;
+	margin-bottom: 40px !important;
+}
+
+/*Our Blog*/
+.card-blog {
+	transition: 1s all ease;
+}
+
+.card-title-blog {
+	font-family: Open sans, sans-serif;
+}
+
+.card-text-blog {
+	color: gray;
+}
+
+.blog-icon {
+	color: #04CE47;
+}
+
+.dark {
+	color: gray;
+}
+
+.btn-blog {
+	background-color: #04CE47;
+}
+
+.btn-blog:hover {
+	background-color: #000;
+	border-color: #000;
+}
+
+.card-blog:hover {
+	transform: translateY(-15px);
+}
+
+.card-blog:hover .card-img-top {
+	opacity: 0.8;
+}
+
+/*Our Contact*/
+.our-contact {
+	background-color: #F2F2F2;
+}
+
+.contact-icon {
+	font-size: 30px;
+	color: #04CE47;
+
+}
+
+.mt-3 {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 20px;
+}
+
+.fs-4 {
+	font-size: 14px !important;
+}
+
+.bg-success {
+	background-color: #04CE47 !important;
+	color: white;
+}
+
+.bg-success:hover {
+	bg-color: #000 !important;
+}
+
+/*bg-footer*/
+.bg-footer {
+	background-color: #04CE47 !important;
+}
+
+.text-muted {
+	color: white !important;
+}
