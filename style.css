@@ -21,7 +21,7 @@ ul {
 	background-color: #04CE47;
 	text-align: center;
 	color: white;
-	bottom: 15px;
+	bottom: 30px;
 	right: 15px;
 	z-index: 9999;
 	display: none;
@@ -31,6 +31,7 @@ ul {
 .yukari:hover {
 	color: white;
 	transform: translateY(-20px);
+	background-color: #222222;
 }
 
 .yukariCik {
